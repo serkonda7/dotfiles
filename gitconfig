@@ -1,0 +1,10 @@
+[user]
+	name = Lukas Neubert
+[init]
+	defaultBranch = main
+[core]
+	autocrlf = input
+[pull]
+	rebase = true
+[rebase]
+	autoStash = true
