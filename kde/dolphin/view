@@ -1,4 +1,5 @@
 [Dolphin]
+HeaderColumnWidths=400,75,125
 SortHiddenLast=true
 Version=4
 ViewMode=1

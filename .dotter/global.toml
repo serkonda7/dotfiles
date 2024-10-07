@@ -1,3 +1,4 @@
 [default.files]
-"kde/dolphin" = "~/.local/share/dolphin/view_properties/global/.directory"
+"kde/dolphin/view" = "~/.local/share/dolphin/view_properties/global/.directory"
+"kde/dolphin/rc" = "~/.config/dolphinrc"
 gitconfig = "~/.gitconfig"
