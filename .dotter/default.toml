@@ -1,2 +1,6 @@
 [default]
-depends = ["git", "kde"]
+depends = [
+    "git", 
+    "kde",
+    "vscode",
+]

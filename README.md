@@ -11,12 +11,13 @@ Related links
 1. `mv ~/<src_path> ~/.dotfiles/<dest_path>`
 2. Add entry to `global.toml`, e.g.
    ```toml
-    [default.files]
+    [<package>.files]
     # [...]
     dotfile = "~/.file"
     "folder/config" = "~/.local/share/folder/my_config_file"
    ```
-3. `dotter deploy`
+3. Check package is present in `default.toml`
+4. `dotter deploy`
 
 
 ## Process: Initialize local dotfiles from repository

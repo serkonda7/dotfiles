@@ -1,0 +1,78 @@
+{
+  // git
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  // whitespace handling
+  "editor.renderWhitespace": "boundary",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+
+  // editor
+  "editor.suggestSelection": "first",
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.unicodeHighlight.allowedCharacters": {
+    "ß": true,
+    "ä": true,
+    "ü": true,
+    "ö": true,
+    "Ä": true,
+    "Ö": true,
+    "Ü": true,
+  },
+  "editor.minimap.maxColumn": 100,
+  "editor.rulers": [
+    80,
+    100,
+  ],
+  "editor.inlineSuggest.enabled": true,
+
+  // others
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.iconTheme": "vscode-icons",
+  "files.associations": {
+    "*.bait": "bait",
+    "*.out": "plaintext",
+    "*.lo": "bait"
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "extensions.ignoreRecommendations": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "javascript.format.semicolons": "remove",
+  "v.vls.enable": true,
+  "[html]": {
+    "editor.useTabStops": true,
+    "editor.tabSize": 2,
+    "editor.suggest.insertMode": "replace",
+    "gitlens.codeLens.scopes": [
+      "document"
+    ]
+  },
+  "[typescript]": {
+    "editor.useTabStops": true
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "githubPullRequests.createOnPublishBranch": "never",
+  "update.showReleaseNotes": false,
+  "githubPullRequests.pullBranch": "never",
+  "workbench.colorCustomizations": {},
+  "liveshare.launcherClient": "visualStudioCode",
+  "window.titleBarStyle": "custom",
+  "rainbow_csv.autodetect_separators": [
+    "TAB",
+    ";"
+  ],
+  "update.mode": "none",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "markdown.extension.toc.updateOnSave": false,
+  "git.openRepositoryInParentFolders": "never",
+  "solidity.telemetry": false,
+  "codeium.enableCodeLens": false,
+
+  // new
+}

@@ -4,3 +4,7 @@ gitconfig = "~/.gitconfig"
 [kde.files]
 "kde/dolphin/view" = "~/.local/share/dolphin/view_properties/global/.directory"
 "kde/dolphin/rc" = "~/.config/dolphinrc"
+
+[vscode.files]
+"vscode/settings.json" = "~/.config/Code/User/settings.json"
+"vscode/keybindings.json" = "~/.config/Code/User/keybindings.json"
