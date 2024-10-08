@@ -1,4 +1,6 @@
-[default.files]
+[git.files]
+gitconfig = "~/.gitconfig"
+
+[kde.files]
 "kde/dolphin/view" = "~/.local/share/dolphin/view_properties/global/.directory"
 "kde/dolphin/rc" = "~/.config/dolphinrc"
-gitconfig = "~/.gitconfig"

@@ -27,4 +27,5 @@ Related links
 **Execution**
 1. `git clone https://github.com/serkonda7/dotfiles ~/.dotfiles`
 2. `cd ~/.dotfiles`
-3. `dotter deploy --force`
+3. `echo -e 'includes = [".dotter/default.toml"]\npackages = ["default"]' > .dotter/local.toml`
+4. `dotter deploy --force`
